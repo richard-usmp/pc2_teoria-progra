@@ -1,0 +1,14 @@
+@model Entrenador
+
+<h1>Formulario de incripción a la Liga Pokemon</h1>
+<div asp-validation-summary="All">
+    <form asp-action="Formulario">
+        <label>Nombre del Entrenador: </label> 
+            <input asp-for="Nombre"> <br>
+        <label>Pueblo de origen: </label> 
+            <input asp-for="Origen"> <br>
+        <label>Cantidad de medallas: </label> 
+            <input asp-for="Cantidad"> <br>
+        <input type="submit" value="Registro">
+    </form>
+</div>
