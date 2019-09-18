@@ -17,7 +17,7 @@ namespace Liga_Pokemon.Controllers
                 Console.WriteLine(ModelState.IsValid+"Formulario22222222222222222222222222222222222222222");
                 return RedirectToAction("Confirmacion");
             }else{
-                Console.WriteLine("nomejodaslaptm............."+e);
+                Console.WriteLine("probandoooooooooo............."+e);
                 return View(e);
             } 
         }
