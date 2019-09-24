@@ -10,8 +10,14 @@ namespace Liga_Pokemon.Controllers
             return View();
         }
 
+        public IActionResult Formulario()
+        {
+            return View();
+        }
+
         [HttpPost]
-        public IActionResult Formulario(Entrenador e){
+        public IActionResult Formulario(Entrenador e)
+        {
             if(ModelState.IsValid){
                 //TO_DO:Guardar en BD
                 Console.WriteLine(ModelState.IsValid+"Formulario22222222222222222222222222222222222222222");
@@ -21,12 +27,7 @@ namespace Liga_Pokemon.Controllers
                 return View(e);
             } 
         }
-
-        public IActionResult Formulario(){
-            Console.WriteLine("Formularioooooooooooooo");
-            return View();
-        }
-
+        
         public IActionResult Confirmacion(){
             Console.WriteLine("confirmacion");
                 return View();

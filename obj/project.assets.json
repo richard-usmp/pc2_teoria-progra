@@ -11802,11 +11802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\Liga_Pokemon\\Liga_Pokemon.csproj",
+      "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\pc2_teoria-progra\\Liga_Pokemon.csproj",
       "projectName": "Liga_Pokemon",
-      "projectPath": "C:\\Users\\Ricardo\\Documents\\Liga_Pokemon\\Liga_Pokemon.csproj",
+      "projectPath": "C:\\Users\\Ricardo\\Documents\\pc2_teoria-progra\\Liga_Pokemon.csproj",
       "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ricardo\\Documents\\Liga_Pokemon\\obj\\",
+      "outputPath": "C:\\Users\\Ricardo\\Documents\\pc2_teoria-progra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
